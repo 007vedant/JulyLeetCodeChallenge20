@@ -24,3 +24,6 @@ public:
         return per;
     }
 };
+
+// counting non zero neighbours for each cell with 1 then adding it to perimeter after 
+// subtracting from 4

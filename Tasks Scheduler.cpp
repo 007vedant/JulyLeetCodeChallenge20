@@ -12,6 +12,10 @@ public:
         
         return max(sz, (mx - 1)*(n + 1) + mx_cnt);
         
+
+        // mx is the fequency of the task which occurs most
+        // mx_cnt is the number of tasks which occur most
+
         
     }
 };
